@@ -1,0 +1,686 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SectionX2/home page</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="swiper.css"/>
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">BLOGGER PAGE</h2> 
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="Search">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">WATCH</span>
+                    </h3>
+                    <span class="headline-description">LOOK SOMETHING NEW</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="apple vision pro 2.jpg" alt="" class="article-image">
+                    <span class="article-category">Virtual reality</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>February 2, 2024</span>
+                            <span class="article-data-spacer"></span>
+                            
+                        </div>
+
+                        <h3 class="title article-title">Vision Pro is the future?</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="mountain travel.jpg" alt="" class="article-image">
+                    <span class="article-category">MOUNTAIN</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>15 Aug 2023</span>
+                            <span class="article-data-spacer"></span>
+                            
+                        </div>
+
+                        <h3 class="title article-title">Mountains travel</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="pexels-anil-sharma-10580198.avif" alt="" class="article-image">
+                    <span class="article-category">FOOD</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>4 Apr 2024</span>
+                            <span class="article-data-spacer"></span>
+                            
+                        </div>
+
+                        <h3 class="title article-title">Indian Food</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending Songs..</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="maxresdefault.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>1 Jan 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By: Anup Jalota</span>
+                        </div>
+
+                        <h3 class="title article-title">Hanuman Chalisa</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="phle bhi m.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>25 dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By: Vishal Mishra, Raj Shekhar</span>
+                        </div>
+
+                        <h3 class="title article-title">Pehle Bhi Main</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="husn.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>15 Nov 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By: Anuv Jain</span>
+                        </div>
+
+                        <h3 class="title article-title">Husn</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="mere ghar ram.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>16 Sept 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By: Jubin Nautiyal, Payal Dev, Manoj Muntashir</span>
+                        </div>
+
+                        <h3 class="title article-title">Mere Ghar Ram Aaye Hain</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="tu h kha.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>19 July 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>By: AUR</span>
+                        </div>
+
+                        <h3 class="title article-title">Tu hai kaha</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="Slides section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Slides">Slides</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="astern marten sports car.webp" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>Sports car</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Cars</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="ducati-panigale-v4-r-4k.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Super Bikes</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Bikes</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="dodge-charger-daytona.webp" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>V8</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Muscle Car</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="harley-davidson.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Heavy Weight</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Muscle Bikes</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="hangout.avif" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Place to Relex</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Hangout</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="beaches.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>Beaches</span>
+                                <span class="article-data-spacer"></span>
+                                
+                            </div>
+                            <h3 class="title article-title">Sea</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="Kesariya.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>20 July 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Kesariya</span>
+                        </div>
+
+                        <h3 class="title article-title">2022 Best Trending Song</h3>
+                        <p class="article-description">Kesariya was crooned by Arijit Singh and composed by Pritam. The lyrics were penned by Amitabh Bhattacharya. Kesariya is a love ballad focusing on the love between Ranbir and Alia.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="evil dead.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>21 April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Evil Dead Rise</span>
+                        </div>
+
+                        <h3 class="title article-title">Best Movie</h3>
+                        <p class="article-description">Evil Dead Rise is a 2023 American supernatural horror film written and directed by Lee Cronin. It is a standalone entry and the fifth installment in the Evil Dead film series. The film stars Lily Sullivan and Alyssa Sutherland as two estranged sisters trying to survive and save their family from deadites.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="amber fort.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Amber Fort</span>
+                        </div>
+
+                        <h3 class="title article-title">Best Place to Vist in Jaipur</h3>
+                        <p class="article-description">One of the top tourist attractions of Jaipur, the huge Amer Palace Fort sits atop a small hill, and is located at a distance about 11 km from the main city. The magnificent Amer Fort is an extensive palace complex that has been built with pale yellow and pink sandstone, and with white marble.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="nanital.cms" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>22 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Nainital, Uttarakhand</span>
+                        </div>
+
+                        <h3 class="title article-title">Best Place to Visit in Winters</h3>
+                        <p class="article-description">Nainital, the charming Himalayan lake town, is a picture-postcard perfect hill-station and one of the most popular in Northern India. Commonly known as the 'Lake District', Nainital is nestled high up in the Kumaon Himalayas at an altitude of around 2,000 m above sea level.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="s24.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>17 Jan 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>S24 Ultra</span>
+                        </div>
+
+                        <h3 class="title article-title">Samsung</h3>
+                        <p class="article-description">The Galaxy S24 Ultra has better battery life, faster performance, and even better cameras, though you'll also pay a bit more for the improvements.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="gta 6.webp" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>12 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>GTA VI</span>
+                        </div>
+
+                        <h3 class="title article-title">Upcoming Game</h3>
+                        <p class="article-description">Grand Theft Auto VI is an action-adventure game set in the fictional open world state of Leonida—based on Florida—which includes Vice City, a fictionalised version of Miami.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Health</span>
+                    <img src="health.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="technology.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#AI</span>
+                    <img src="au.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Travel</span>
+                    <img src="travel.png" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Nature</span>
+                    <img src="nature.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Space</span>
+                    <img src="space.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Watch and Enjoy</h6>
+                <p class="newsletter-description">
+                    "Blogger's Hub: Your go-to destination for insightful articles and inspiration.".</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Blogger Page</h2>
+                </a>
+                <p class="company-description">
+                    "Blogger Page: Connect, Create, Share; Your Platform for Dynamic Blogging Experiences!".</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-github-fill"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-linkedin-box-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;"2024 Blogger Page. All rights reserved.".</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">AI</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Space</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="swiper.js"></script>
+    <!-- Work.js -->
+    <script src="work.js"></script>
+</body>
+</html>
